@@ -15,8 +15,9 @@ source:
   sha256: cb5025f09f96d024eb4d6c335f26d1d538b0cd8aee56488c2f5b702f2593d5ed
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 0
+  number: 1000
 
   rpaths:
     - lib/R/lib/
@@ -48,8 +49,7 @@ about:
     can be injected with either this package''s own stub() function or a similar with_mock()
     facility present in the testthat package.'
   license_family: MIT
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\MIT'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
 
 extra:
   recipe-maintainers:
