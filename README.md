@@ -14,9 +14,8 @@ Summary: The two main functionalities of this package are creating mock objects 
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-mockery-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-mockery-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-mockery-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-mockery-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-mockery-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-mockery-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-mockery-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-mockery-feedstock)
 
 Current release info
 ====================
