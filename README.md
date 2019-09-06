@@ -1,13 +1,13 @@
 About r-mockery
 ===============
 
-Home: https://github.com/n-s-f/mockery
+Home: https://github.com/jfiksel/mockery
 
 Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: The two main functionalities of this package are creating mock objects (functions) and selectively intercepting calls to a given function that originate in some other function. It can be used with any testing framework available for R. Mock objects can be injected with either this package's own stub() function or a similar with_mock() facility present in the testthat package.
+Summary:  The two main functionalities of this package are creating mock objects (functions) and selectively intercepting calls to a given function that originate in some other function. It can be used with any testing framework available for R. Mock objects can be injected with either this package's own stub() function or a similar with_mock() facility present in the 'testthat' package.
 
 
 
@@ -116,11 +116,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bgruening](https://github.com/bgruening/)
-* [@cbrueffer](https://github.com/cbrueffer/)
 * [@conda-forge/r](https://github.com/conda-forge/r/)
-* [@daler](https://github.com/daler/)
-* [@dbast](https://github.com/dbast/)
-* [@jdblischak](https://github.com/jdblischak/)
-* [@johanneskoester](https://github.com/johanneskoester/)
 
