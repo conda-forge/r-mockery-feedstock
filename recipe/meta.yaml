@@ -1,4 +1,4 @@
-{% set version = "0.4.3" %}
+{% set version = "0.4.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mockery_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mockery/mockery_{{ version }}.tar.gz
-  sha256: 9fc9f1565c51e51b33634e9fc5328211559a561f095bc4d0fa8bd8b7533d476a
+  sha256: 072220a0f2455fca91649fc7ce4ed503cfaa965aa769d1bd0fd6622b222845c3
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -38,8 +38,8 @@ test:
 about:
   home: https://github.com/jfiksel/mockery
   license: MIT
-  summary: " The two main functionalities of this package are creating mock objects (functions) and selectively intercepting calls to a given function that originate in some other function. It can be used with any testing framework available for R. Mock objects can be injected with either this package's own stub() function\
-    \ or a similar with_mock() facility present in the 'testthat' package."
+  summary: " The two main functionalities of this package are creating mock objects (functions) and selectively intercepting calls to a given function that originate in some other function. It can be used with any testing framework available for R. Mock objects can be injected with either this package's own stub() function
+    or a similar with_mock() facility present in the 'testthat' package."
   license_family: MIT
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
